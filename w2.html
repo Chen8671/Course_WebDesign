@@ -35,14 +35,17 @@
    <body>
       <div class="container" >
          <!-- CSS -->
-         <div class="row " style=" height: 200px; width: 400px;" >
+         <div class="row " style=" height: 200px; width: 200px;" >
             <div class="col ">
-               <div id="carouselExampleIndicators" >
-                  <div class="carousel-item active" >
+               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-intercal="1000">
+                  <div class="carousel-item pic" >
                      <img src="./img/1.jpg" class="d-block w-100"  alt="toy" >
                   </div>
-                  <div class="carousel-item active">
+                  <div class="carousel-item pic">
                      <img src="./img/2.jpeg" class="d-block w-100"  alt=".." >
+                  </div>
+                  <div class="carousel-item active pic">
+                     <img src="./img/3.jpeg" class="d-block w-100"  alt=".." >
                   </div>
                </div>
             </div>
@@ -50,8 +53,8 @@
          <!-- CSS -->
          <!-- JS -->
          <div class="row">
-			<p id="demo">demo</p> 
-            <button type="button" class="btn btn-primary">Primary</button>
+			<p id="demo">Hello!</p> 
+            <button type="button" class="disabled aria-label" onclick="buttonFunction()">點我!</button>
          </div>
          <!-- JS -->
          <!-- HTML	 -->
@@ -60,12 +63,12 @@
                <tr class="bg02">
                   <td colspan="18">課程名稱：11102伺服網頁程式設計_四技資工二Ａ</td>
                </tr>
-               <td align="center">帳號</td>
+               <td align="center">帳號 </td>
                <td align="center">姓名 </td>
                </tr>
                <tr class="cssTrOdd">
-                  <td>1</td>
-                  <td>A</td>
+                  <td>A090E107</td>
+                  <td>林子瑜</td>
                <tr class="cssTrEvn">
                   <td>2</td>
                   <td>B</td>
@@ -79,10 +82,19 @@
          </div>
          <!-- HTML	 -->
       </div>
-	  <script>
-		  function myFunction() {
-			}
-	  </script>
+     <script>
+      var originalText = "林子瑜";
+      var newText = "A090E107";
+    
+      function buttonFunction() {
+        var demo = document.getElementById("demo");
+        if (demo.innerHTML === originalText) {
+          demo.innerHTML = newText;
+        } else {
+          demo.innerHTML = originalText;
+        }
+      }
+    </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
    </body>
 </html>
