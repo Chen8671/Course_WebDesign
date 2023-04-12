@@ -1,5 +1,5 @@
 <?php
-   include("index.php");
+
    ?>
 <!DOCTYPE html>
 <html>
@@ -45,27 +45,7 @@
          <?= var_dump($posts); ?>
          <div class="row">
             <div class="col-md-10">
-               <table>
-                  <tr>
-                     <th>Title</th>
-                     <th>createdAt</th>
-                  </tr>
-                  <?php 
-                     if(is_array($posts)){ 
-                     foreach($posts as $row){ ?>
-		              <tr>
-                     <td><?php echo $row['title']??''; ?></td>
-                     <td><?php echo $row['createdAt']??''; ?></td>
-                  </tr>
-                  <?php }} ?>
-               </table>
             </div>
-         </div>
-         <div class="row">
-            <form action="<?php $_PHP_SELF ?>" method="post">
-               <input type="text" name="Email" />
-               <button name="btn_email" value="send">送出</button>
-            </form>
          </div>
       </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
