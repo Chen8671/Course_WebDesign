@@ -1,8 +1,11 @@
 # Course_WebDesign
 
+## W7_0414
+[課堂任務](https://hackmd.io/@sarah-KSU/rJHOXVC-2)
+
 ## W6_0331
 [課堂任務](https://hackmd.io/@sarah-KSU/HJIjWyV-n)
-[期中評量](https://hackmd.io/@sarah-KSU/HkEpwNEW2)
+[期中評量](https://hackmd.io/@sarah-KSU/ryvA8K5Z2)
 ## W5_0324
 [課堂任務_DB](https://hackmd.io/@sarah-KSU/SJRDZKHe3)
 
