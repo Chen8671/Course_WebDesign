@@ -1,5 +1,8 @@
 # Course_WebDesign
 
+## W10_0428 DB操作
+[課堂任務](https://hackmd.io/@sarah-KSU/H1g4qndX3)
+
 ## W9_0421
 [期中報告Google meet連結](https://meet.google.com/bwd-eojb-syh)
 
