@@ -1,5 +1,8 @@
 # Course_WebDesign
 
+## W12_0512 密碼驗證機制+版控
+[課堂任務](https://hackmd.io/@sarah-KSU/By_8TKoN3)
+
 ## W11_0505 會員
 [課堂任務](https://hackmd.io/@sarah-KSU/BkMFAHMVn)
 
