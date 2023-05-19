@@ -1,5 +1,9 @@
 # Course_WebDesign
 
+## W13_0519 版控
+[課堂任務](https://kahoot.it/?pin=4619833&refer_method=link) 
+[GIT](https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-Git-%E5%9F%BA%E7%A4%8E%E8%A6%81%E9%BB%9E)
+
 ## W12_0512 密碼驗證機制+版控
 [課堂任務](https://hackmd.io/@sarah-KSU/By_8TKoN3)
 
