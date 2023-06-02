@@ -2,7 +2,10 @@
 
 ## W15_0602 模擬考
 [網路大學](https://elearning2.ksu.edu.tw/mooc/index.php)
+<br>
 [考題](https://github.com/A108000067/Course_WebDesign/blob/main/%E6%9C%9F%E6%9C%AB%E6%A8%A1%E6%93%AC%E8%80%83.pdf)
+<br>
+[html參考](https://www.w3schools.com/html/html_forms.asp)
 
 ## W14_0526 會員
 [課堂任務](https://hackmd.io/@sarah-KSU/H1rdJW0H3)
