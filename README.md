@@ -1,11 +1,18 @@
 # Course_WebDesign
 
+
 ## W15_0602 模擬考
+linux系統裡面,作答壓縮和上傳方式(終端機terminal指令):
+1. 壓縮整個資料夾: `sudo tar -cvf 編號_學號.tar 要壓縮的資料夾/*`
+2. 將壓縮檔移動到桌面: `cp 編號_學號.tar ~/Desktop/`
+
 [網路大學](https://elearning2.ksu.edu.tw/mooc/index.php)
 <br>
 [考題](https://github.com/A108000067/Course_WebDesign/blob/main/%E6%9C%9F%E6%9C%AB%E6%A8%A1%E6%93%AC%E8%80%83.pdf)
 <br>
 [html參考](https://www.w3schools.com/html/html_forms.asp)
+圓形選項 radio button
+方框 checkbox
 
 ## W14_0526 會員
 [課堂任務](https://hackmd.io/@sarah-KSU/H1rdJW0H3)
